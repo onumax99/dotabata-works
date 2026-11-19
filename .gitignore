@@ -1,0 +1,53 @@
+# Unity プロジェクト（このリポジトリでは 1 階層下のフォルダに置いている）
+# Unity が自動で作り直すフォルダ
+/*/[Ll]ibrary/
+/*/[Tt]emp/
+/*/[Oo]bj/
+/*/[Bb]uild/
+/*/[Bb]uilds/
+/*/[Ll]ogs/
+/*/[Uu]ser[Ss]ettings/
+/*/[Mm]emoryCaptures/
+/*/[Rr]ecordings/
+
+# ビルドの記録・クラッシュ情報
+/*/[Aa]ssets/AssetStoreTools*
+sysinfo.txt
+crashlytics-build.properties
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# デバッグ用シンボル
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# IDE が作るファイル（Unity が開くたびに作り直す）
+.vs/
+.vscode/
+.idea/
+.gradle/
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# OS が作るファイル
+.DS_Store
+Thumbs.db
+Desktop.ini

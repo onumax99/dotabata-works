@@ -1,0 +1,149 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42055c3e0d4c9ae4791fe314a82530d5, type: 3}
+  m_Name: GoodsFactory_01
+  m_EditorClassIdentifier: Assembly-CSharp::DotaBata.LevelData
+  themeName: "\u30B0\u30C3\u30BA\u5DE5\u5834"
+  stageName: "\u30B9\u30C6\u30FC\u30B81"
+  managerName: "\u5E97\u9577"
+  timeLimit: 90
+  starScores: 2c0100005802000084030000i
+  maxActiveOrders: 4
+  defaultPatience: 40
+  deliverBaseScore: 100
+  speedBonusMax: 50
+  missPenalty: 30
+  wrongPenalty: 20
+  fillerInterval: 8
+  easyTimeMultiplier: 1.5
+  easyPatienceMultiplier: 1.5
+  cheerSpeedMultiplier: 1.35
+  floorSize: {x: 7, y: 10}
+  playerStart: {x: 0.6, y: 0, z: -1}
+  floorMaterial: {fileID: 2100000, guid: 98d03eed94b4f474e9f49bfda82a8508, type: 2}
+  wallMaterial: {fileID: 2100000, guid: 68eee193d5b5354488cbb2c7a965b37f, type: 2}
+  stations:
+  - note: "\u30D9\u30EB\u30C8\u30B3\u30F3\u30D9\u30A2"
+    prefab: {fileID: 3125831112508591039, guid: 02e2c6690b3d57c408bed3ca355a99ab, type: 3}
+    position: {x: -3, y: 0, z: 0}
+    rotationY: 0
+    length: 7.4
+  - note: "\u8272\u5857\u308A\u53F0\uFF08\u30D4\u30F3\u30AF\uFF09"
+    prefab: {fileID: 6770011054123579965, guid: 6044a0ec43ddca440b292c023d6896b0, type: 3}
+    position: {x: -1.95, y: 0, z: -2.4}
+    rotationY: 0
+    length: 0
+  - note: "\u8272\u5857\u308A\u53F0\uFF08\u307F\u305A\u3044\u308D\uFF09"
+    prefab: {fileID: 4024751032199826025, guid: bf686a607675db84b89ac895d5fb6950, type: 3}
+    position: {x: -1.95, y: 0, z: -1.2}
+    rotationY: 0
+    length: 0
+  - note: "\u8272\u5857\u308A\u53F0\uFF08\u304D\u3044\u308D\uFF09"
+    prefab: {fileID: 1543175041534031233, guid: 5152b2be440ac394a868e598043d6ef7, type: 3}
+    position: {x: -1.95, y: 0, z: 0}
+    rotationY: 0
+    length: 0
+  - note: "\u68B1\u5305\u53F0"
+    prefab: {fileID: 9001032537832141640, guid: bb15a5770d1f0304aa61ecb3a0e3ab79, type: 3}
+    position: {x: -1.75, y: 0, z: 4.5}
+    rotationY: 0
+    length: 0
+  - note: "\u7F6E\u304D\u53F0\uFF08\u4E0A\uFF09"
+    prefab: {fileID: 155511460513806660, guid: fa2657b2a03c8414abd3266d8fb365e4, type: 3}
+    position: {x: -0.65, y: 0, z: 4.5}
+    rotationY: 0
+    length: 0
+  - note: "\u51FA\u8377\u53E3"
+    prefab: {fileID: 3694650180355801224, guid: fe6b9c65f05b1a6489b54b69b55373f3, type: 3}
+    position: {x: 2.3, y: 0, z: 4.5}
+    rotationY: 0
+    length: 0
+  - note: "\u6750\u6599\u68DA\uFF08\u30A2\u30AF\u30B9\u30BF\uFF09"
+    prefab: {fileID: 8223845350391261426, guid: 5fe50f6bb21cae440b2a248b862d1918, type: 3}
+    position: {x: -0.9, y: 0, z: -4.5}
+    rotationY: 0
+    length: 0
+  - note: "\u6750\u6599\u68DA\uFF08\u7F36\u30D0\u30C3\u30B8\uFF09"
+    prefab: {fileID: 8813443550221101976, guid: 59adb9679de0b3c4fae46162a9a2fab9, type: 3}
+    position: {x: 0.3, y: 0, z: -4.5}
+    rotationY: 0
+    length: 0
+  - note: "\u7D44\u307F\u7ACB\u3066\u53F0A"
+    prefab: {fileID: 4462537224180150229, guid: c2b6fd64443f60c4784bd39af8a4b31c, type: 3}
+    position: {x: 3, y: 0, z: -2.9}
+    rotationY: 0
+    length: 0
+  - note: "\u7D44\u307F\u7ACB\u3066\u53F0B"
+    prefab: {fileID: 4462537224180150229, guid: c2b6fd64443f60c4784bd39af8a4b31c, type: 3}
+    position: {x: 3, y: 0, z: -1.7}
+    rotationY: 0
+    length: 0
+  - note: "\u7F6E\u304D\u53F0\uFF08\u53F3\uFF09"
+    prefab: {fileID: 155511460513806660, guid: fa2657b2a03c8414abd3266d8fb365e4, type: 3}
+    position: {x: 3, y: 0, z: 0.1}
+    rotationY: 0
+    length: 0
+  - note: "\u30B4\u30DF\u7BB1"
+    prefab: {fileID: 5211122091210782405, guid: 442e9f3767ae22a44a0bbec5cbb0d4cb, type: 3}
+    position: {x: 3.05, y: 0, z: 1.7}
+    rotationY: 0
+    length: 0
+  orders:
+  - time: 0
+    type: 0
+    color: 1
+    patience: 0
+  - time: 3
+    type: 1
+    color: 2
+    patience: 0
+  - time: 15
+    type: 0
+    color: 3
+    patience: 0
+  - time: 26
+    type: 1
+    color: 1
+    patience: 0
+  - time: 36
+    type: 0
+    color: 2
+    patience: 0
+  - time: 45
+    type: 1
+    color: 3
+    patience: 0
+  - time: 66
+    type: 0
+    color: 1
+    patience: 0
+  - time: 76
+    type: 1
+    color: 2
+    patience: 0
+  gimmicks:
+  - time: 28
+    kind: 0
+    duration: 8
+    count: 3
+  - time: 50
+    kind: 1
+    duration: 8
+    count: 3
+  - time: 62
+    kind: 2
+    duration: 10
+    count: 3
+  - time: 72
+    kind: 0
+    duration: 7
+    count: 3
